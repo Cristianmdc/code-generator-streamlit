@@ -39,11 +39,6 @@ def generate_code_with_codellama(description):
 
     except Exception as e:
         return f"Error with CodeLlama: {e}"
-expand = st.expander("My label", icon=":material/info:")
-expand.write("Inside the expander.")
-pop = st.popover("Button label")
-pop.checkbox("Show all")
-
 
 # Streamlit app layout
 st.title("Cristian Moreno Python Code Generator with CodeLlama")
