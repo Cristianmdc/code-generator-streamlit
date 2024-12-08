@@ -43,10 +43,6 @@ def generate_code_with_codellama(description):
 # Streamlit app layout
 st.title("Cristian Moreno Python Code Generator with CodeLlama")
 st.write("Enter a description of the Python application or code you need. CodeLlama will generate the corresponding Python code.")
-# Show and update progress bar
-bar = st.progress(50)
-time.sleep(3)
-bar.progress(100)
 
 # Input box for the user to enter a description
 description = st.text_area("Application or Code Description", placeholder="Describe the application or code you want")
