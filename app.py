@@ -58,7 +58,4 @@ if st.button("Generate Code"):
     else:
         st.error("Please provide a valid description.")
 
-# Show a spinner during a process
-with st.spinner(text="In progress"):
-    time.sleep(3)
-    st.success("Done")
+
